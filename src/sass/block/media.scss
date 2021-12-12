@@ -2,6 +2,9 @@
     .benefits__descr{
         width:250px
     }
+    .consultation__title{
+        font-size: 30px;
+    }
 }
 @media (max-width:551px){
     .header__official{
@@ -28,7 +31,15 @@
     .benefits__descr{
         width: 100%;
         margin-bottom: 20px;
-    }    
+    }  
+    
+    .consultation{
+        text-align: center;
+    }
+    .feed-form{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 
 }
 @media (max-width:480px){
@@ -54,16 +65,30 @@
     .benefits__subheader{
         font-size: 25px;
     }
+    .consultation__title {
+        font-size: 25px;
+    }
+    .consultation__descr {   
+        font-size: 17px;
+    }
         
 }
 @media (max-width:320px){
-    .button_main{
-        width:100%
+    .button{
+        width:100%;
     }
+    .button_main{
+        width:300px;
+    }
+
     .benefits__subheader {
         font-size: 21px;
     }
-    .button{
-        width:100%
+   
+    .consultation__title {
+        font-size: 21px;
+    }
+    .consultation__descr {   
+        font-size: 15px;
     }
 }
