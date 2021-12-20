@@ -5,6 +5,9 @@
     .consultation__title{
         font-size: 30px;
     }
+    .catalog__content{
+        justify-content: space-around;
+    }
 }
 @media (max-width:551px){
     .header__official{
@@ -47,10 +50,24 @@
             width: 100%;
         }
     }
-
+    .catalog-item {
+        width: 90%;
+    }
+    .catalog__tab {
+        width: 150px;
+    }
 }
 @media (max-width:480px){
-
+    .catalog__tab {
+        width: 100%;
+        font-size: 15px;
+    }
+    .catalog-item {
+        width: 100%;
+    }
+    .catalog-item__descr{
+        font-size: 13px;
+    }
 }
 
 @media (max-width:360px){
@@ -78,7 +95,16 @@
     .consultation__descr {   
         font-size: 17px;
     }
-        
+    .catalog__tab {
+        width: 90%;
+    }
+    .catalog__tabs {
+        flex-direction: column;
+    }
+    .catalog__title {
+        font-size: 25px;
+    }
+
 }
 @media (max-width:320px){
     .button{
@@ -97,5 +123,8 @@
     }
     .consultation__descr {   
         font-size: 15px;
+    }
+    .catalog-item__descr {
+        font-size: 14px;
     }
 }
