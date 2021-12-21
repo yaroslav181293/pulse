@@ -56,6 +56,14 @@
     .catalog__tab {
         width: 150px;
     }
+    .reviews__descr{
+        font-size: 14px;
+    }
+    .reviews__logo{
+        img{
+            width: 200%;
+        }
+    }
 }
 @media (max-width:480px){
     .catalog__tab {
@@ -103,6 +111,20 @@
     }
     .catalog__title {
         font-size: 25px;
+    }
+    .reviews__wrapper{
+        flex-direction: column;
+
+    }
+    .reviews__logo{
+        img{
+            width:  100%;
+        }
+    }
+   
+   
+    .reviews__block {
+        margin-top: 30px;
     }
 
 }
