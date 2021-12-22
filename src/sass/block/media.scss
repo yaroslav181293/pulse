@@ -8,6 +8,9 @@
     .catalog__content{
         justify-content: space-around;
     }
+    .modal__colose_adap{
+        top:30px;
+    }
 }
 @media (max-width:551px){
     .header__official{
@@ -136,6 +139,16 @@
     .footer__info{
         width: 100%;
     }
+    .modal__colose_adap{
+        right: 2px;
+        top:57px;
+    }
+    .modal{
+        width: 100%;
+    }
+    .modal__subtitle{
+        font-size: 16px;
+    }
 
 }
 @media (max-width:320px){
@@ -161,5 +174,14 @@
     }
     .footer__social-item{
         margin: 0 5px;
+    }
+    .modal {
+        padding: 38px 20px 40px;
+    }
+    .modal__subtitle {
+        font-size: 15px;
+    }
+    .modal__descr {
+        font-size: 11px;
     }
 }
