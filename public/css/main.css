@@ -288,10 +288,6 @@
   color: #0D0D0D;
 }
 
-.reviews__logo img {
-  width: 100%;
-}
-
 .benefits {
   padding: 73px 0 83px 0;
 }
@@ -776,6 +772,7 @@
   }
 
   .catalog__tab {
+    font-size: 17px;
     width: 150px;
   }
 
@@ -785,6 +782,10 @@
 
   .reviews__logo img {
     width: 200%;
+  }
+
+  .footer__social img {
+    width: 100%;
   }
 
 @supports (-webkit-appearance:none) {
@@ -877,6 +878,10 @@
     margin-top: 30px;
   }
 
+  .footer__info {
+    width: 100%;
+  }
+
 @supports (-webkit-appearance:none) {
 
 }
@@ -905,6 +910,10 @@
 
   .catalog-item__descr {
     font-size: 14px;
+  }
+
+  .footer__social-item {
+    margin: 0 5px;
   }
 
 @supports (-webkit-appearance:none) {

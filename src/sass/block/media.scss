@@ -54,6 +54,7 @@
         width: 90%;
     }
     .catalog__tab {
+        font-size: 17px;
         width: 150px;
     }
     .reviews__descr{
@@ -62,6 +63,11 @@
     .reviews__logo{
         img{
             width: 200%;
+        }
+    }
+    .footer__social{
+        img{
+            width: 100%;
         }
     }
 }
@@ -127,6 +133,10 @@
         margin-top: 30px;
     }
 
+    .footer__info{
+        width: 100%;
+    }
+
 }
 @media (max-width:320px){
     .button{
@@ -148,5 +158,8 @@
     }
     .catalog-item__descr {
         font-size: 14px;
+    }
+    .footer__social-item{
+        margin: 0 5px;
     }
 }
