@@ -1,4 +1,5 @@
 .benefits{
+    background-color: #f6f6f6;
     padding: 73px 0 83px 0;
     &__subheader{
         font-weight: bold;
@@ -29,13 +30,16 @@
 
         }    
     &_icon{
+       
 
     }
+    
         img{
-          
+            
             display: block;
             margin: 0 auto;
         }
+       
     &__wrapper{
         margin-top: 65px;
         display: flex;
@@ -43,5 +47,11 @@
     }
     
     
+}
+.benefits__icon_animated{
+    animation-timing-function:ease ;
+    animation-name: heartbeat;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite ;
 }
     

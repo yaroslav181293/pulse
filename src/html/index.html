@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -76,7 +76,7 @@
                 </div>
                 <div class="benefits__icons">
                     <div class="benefits_icon">
-                        <img src="img/heart.png" alt="heart">
+                        <img src="img/heart.png" alt="heart" class="benefits__icon_animated" >
                     </div>
                     <div class="benefits__title">
                         Заботимся о здоровье
@@ -116,7 +116,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -130,7 +130,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <section class="catalog">
         <div class="container">
             <h2 class="catalog__title"> Каталог пульсометров</h2>
@@ -165,7 +165,7 @@
                             <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
                             <a class="catalog-item__back" href="#">Назад</a>
                         </ul>
-
+                        
                     </div>
                     <hr>
 
@@ -520,9 +520,15 @@
             <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
         </div>
     </div>
-   
+
+<a class="pageup" href="#up">
+    <img  src="img/chevron-circle-up-solid.svg" alt="up">
+</a>
+
+  
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script  src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js" ></script>
     <script src="js/main.js"></script>
 </body>
